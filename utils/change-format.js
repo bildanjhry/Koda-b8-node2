@@ -8,8 +8,5 @@ export default function changeFormat(date) {
     
   const formatter = new Intl.DateTimeFormat('en-US', format, { dateStyle: 'long' });
   const formatedDates = formatter.format(newDates);
-  console.log(newDates.toLocaleDateString('en-US', format));
-
-    
   console.log("Hasilnya: "+formatedDates);
 }

@@ -8,7 +8,8 @@ export default defineConfig([
     languageOptions: { globals: globals.node },
     rules: {
       semi: ["error", "always"],
-      indent:["error", 2]
+      indent:["error", 2],
+      "no-unused-vars": "warn",
     } 
   },
 ]);
